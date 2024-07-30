@@ -1,0 +1,27 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  border: 5px solid cyan;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  color: darkslategray;
+  font-size: 2.5rem;
+}
+#titre1 {
+  margin-left: 20px;
+  font-size: 2rem;
+  color: green;
+  margin-bottom: 0;
+  margin-top: 32px;
+}
+#presentation {
+  font-size: 2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 5px solid chartreuse;
+  padding-left: 10px;
+}
