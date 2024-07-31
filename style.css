@@ -1,23 +1,28 @@
+@font-face {
+  font-family: dm-serife;
+  src: url(./Assets/Fonts/DMSerifDisplay-Regular.ttf);
+}
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
 }
 *::selection {
   color: darkcyan;
 }
 h1 {
-  border: 5px solid cyan;
+  border: 5px solid rgb(7, 113, 135);
   border-radius: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: dm-serife;
   text-align: center;
   padding: 20px;
   margin: 0;
-  color: darkslategray;
+  color: rgb(10, 9, 8);
   font-size: 2.5rem;
 }
 #titre1 {
   margin-left: 20px;
   font-size: 2rem;
-  color: green;
+  color: rgb(49, 92, 43);
   margin-bottom: 0;
   margin-top: 32px;
 }
@@ -25,6 +30,7 @@ h1 {
   font-size: 2rem;
   margin-left: 10px;
   margin-right: 10px;
-  border: 5px solid chartreuse;
+  border: 5px solid rgb(42, 114, 33);
   padding-left: 10px;
+  width: 500px;
 }
