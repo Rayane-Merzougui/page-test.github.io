@@ -1,6 +1,9 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+*::selection {
+  color: darkcyan;
+}
 h1 {
   border: 5px solid cyan;
   border-radius: 20px;
