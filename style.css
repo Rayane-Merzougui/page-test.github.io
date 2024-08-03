@@ -2,47 +2,28 @@
   font-family: dm-serife;
   src: url(./Assets/Fonts/DMSerifDisplay-Regular.ttf);
 }
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /*background-image: url(./Assets/IMG/Background.jpg);
-  background-image: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  */
-  min-height: 100vh;
+@font-face {
+  font-family: onset;
+  src: url(./Assets/Fonts/Onest/Onest-VariableFont_wght.ttf);
 }
 *::selection {
   color: darkcyan;
 }
-h1 {
-  border: 5px solid rgb(7, 113, 135);
-  box-shadow: 0 0 20px 3px;
-  border-radius: 20px;
-  font-family: dm-serife;
-  text-align: center;
-  padding: 20px;
-  margin: 0;
-  color: rgb(10, 9, 8);
-  font-size: 2.5rem;
-  text-shadow: 1px 2px 20px rgba(10, 9, 8, 0.3);
+body {
+  font-family: onset;
 }
-#titre1 {
-  margin-left: 20px;
-  font-size: 2rem;
-  color: rgba(0, 209, 25);
-  margin-bottom: 0;
-  margin-top: 32px;
-}
-#presentation {
-  font-size: 2rem;
-  margin-left: 10px;
-  margin-right: 10px;
-  border: 5px solid rgba(0, 209, 24, 0.76);
-  border-radius: 30px;
-  box-shadow: 0 0 20px 3px rgb(0, 209, 25);
-  text-shadow: 1px 2px 20px rgba(10, 9, 8, 0.5);
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 500px;
-  text-align: justify;
+body::after {
+  content: "";
+  background: url(./Assets/IMG/Background.jpg);
+  opacity: 0.3;
+  background-image: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-height: 100vh;
+  position: fixed;
+  z-index: -1;
 }
