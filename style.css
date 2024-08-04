@@ -6,13 +6,20 @@
   font-family: onset;
   src: url(./Assets/Fonts/Onest/Onest-VariableFont_wght.ttf);
 }
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
 *::selection {
   color: darkcyan;
 }
 body {
   font-family: onset;
 }
-body::after {
+/*body::after {
   content: "";
   background: url(./Assets/IMG/Background.jpg);
   opacity: 0.3;
@@ -26,4 +33,42 @@ body::after {
   min-height: 100vh;
   position: fixed;
   z-index: -1;
+}*/
+header {
+  height: 100vh;
+  width: 100wh;
+  background-image: url(./Assets/IMG/background.jpg);
+  background-size: cover;
+  z-index: -1;
+}
+.navbar {
+  position: absolute;
+  padding: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar a {
+  color: white;
+}
+#title {
+  font-family: dm-serife;
+  font-size: 2.3rem;
+  font-weight: bold;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.nav-link ul {
+  display: flex;
+}
+.nav-link ul li {
+  margin: 0 25px;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 900px) {
+  .nav-link {
+    display: none;
+  }
 }
