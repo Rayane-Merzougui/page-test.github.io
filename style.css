@@ -22,28 +22,20 @@
 }
 body {
   font-family: onset;
+  min-height: 120vh;
+  max-width: 100vw;
 }
-/*body::after {
-  content: "";
-  background: url(./Assets/IMG/Background.jpg);
-  opacity: 0.3;
-  background-image: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  min-height: 100vh;
-  position: fixed;
-  z-index: -1;
-}*/
 header {
-  height: 100vh;
-  width: 100wh;
+  height: 120vh;
+  width: 100vw;
   background-image: url(./Assets/IMG/Background.jpg);
   background-size: cover;
   z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .navbar {
   position: absolute;
@@ -87,8 +79,10 @@ header {
   top: 250px;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 10px;
   margin-right: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
   border-radius: 20px;
   color: white;
   text-align: center;
@@ -98,6 +92,9 @@ header {
 .nav-link ul li :hover {
   color: deepskyblue;
   text-shadow: 1px 2px 20px deepskyblue;
+}
+.presentation a {
+  color: aqua;
 }
 @media screen and (max-width: 1120px) {
   .navbar {
@@ -146,16 +143,24 @@ header {
 }
 @media screen and (max-width: 500px) {
   #title {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   #burger {
-    top: 48px;
-    width: 30px;
+    top: 43px;
+    width: 20px;
   }
   .nav-link ul li {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   #active {
     font-size: larger;
+  }
+  .presentation {
+    width: 80%;
+    margin: 0 35px;
+    font-size: 0.7rem;
+  }
+  .presentation h2 {
+    font-size: 1rem;
   }
 }
