@@ -96,6 +96,12 @@ header {
 .presentation a {
   color: aqua;
 }
+.presentation h2 {
+  padding-top: 10px;
+}
+.presentation p {
+  padding-bottom: 20px;
+}
 @media screen and (max-width: 1120px) {
   .navbar {
     padding: 0;
