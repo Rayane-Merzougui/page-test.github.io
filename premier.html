@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Premier pas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box1">
+      <h1>ceci est mon tout premier code qui marche enfin j'espére</h1>
+    </div>
+    <nav>
+      <ul class="navbar">
+        <li>accueil</li>
+        <li>boutique</li>
+        <li>assistance</li>
+      </ul>
+    </nav>
+    <div>
+      <ul class="position">
+        <li class="boit" id="boit1"><h2>boit 1</h2></li>
+        <li class="boit" id="boit2"><h2>boit 2</h2></li>
+        <li class="boit" id="boit3">
+          <h2>boit 3</h2>
+          <p id="voila">vous voyer</p>
+        </li>
+      </ul>
+    </div>
+    <div class="boxpop">
+      <p>inscriver vous a notre news letter</p>
+      <input type="text" id="email" placeholder="Entrer votre email ici" />
+      <button id="exite">&#10006;</button>
+    </div>
+    <div class="calculator">
+      <input type="text" id="display" readonly />
+      <div class="buttons">
+        <button onclick="insert('1')">1</button>
+        <button onclick="insert('2')">2</button>
+        <button onclick="insert('3')">3</button>
+        <button onclick="insert('+')">+</button>
+        <button onclick="insert('4')">4</button>
+        <button onclick="insert('5')">5</button>
+        <button onclick="insert('6')">6</button>
+        <button onclick="insert('-')">-</button>
+        <button onclick="insert('7')">7</button>
+        <button onclick="insert('8')">8</button>
+        <button onclick="insert('9')">9</button>
+        <button onclick="insert('*')">*</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="insert('0')">0</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="insert('/')">/</button>
+      </div>
+    </div>
+    <footer>
+      <section>
+        <p id="tx">
+          merci d'avoir visté mon site alors que c'est pas grand chose et pour
+          me contater voici mes coordonées:
+        </p>
+        <a href="https://www.instagram.com/rayane.merzougui97/?next=%2F">
+          <img src="./icon/instagram.png" alt="instagram" id="ic1" />
+        </a>
+        <a href="https://www.facebook.com/rayane.chahine.33"
+          ><img src="./icon/facebook.png" alt="facebookS" id="ic2"
+        /></a>
+      </section>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

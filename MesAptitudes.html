@@ -12,7 +12,7 @@
       <a href="index.html" id="title">Rayane Merzougui</a>
       <div class="nav-link">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Accueil</a></li>
           <li><a href="Présentation.html">Présentation</a></li>
           <li><a href="MesAptitudes.html" id="active">Mes aptitudes</a></li>
           <li><a href="MeContacter.html">Me Contacter</a></li>
@@ -21,6 +21,35 @@
       <img src="./Assets/Icons/menu-btn.png" alt="menu" id="burger" />
     </nav>
     <header></header>
+    <div class="text-app">
+      <h2>Calculatrice</h2>
+      <p>
+        l'exercice de la calculatrice est asser basique mais tout aussi
+        efficace, étant donné qu'il démontre très clairement la métrise d'HTML ,
+        CSS et JavaScript donc là voici :
+      </p>
+    </div>
+    <div class="calculator">
+      <input type="text" id="display" readonly />
+      <div class="buttons">
+        <button onclick="insert('1')">1</button>
+        <button onclick="insert('2')">2</button>
+        <button onclick="insert('3')">3</button>
+        <button onclick="insert('+')">+</button>
+        <button onclick="insert('4')">4</button>
+        <button onclick="insert('5')">5</button>
+        <button onclick="insert('6')">6</button>
+        <button onclick="insert('-')">-</button>
+        <button onclick="insert('7')">7</button>
+        <button onclick="insert('8')">8</button>
+        <button onclick="insert('9')">9</button>
+        <button onclick="insert('*')">*</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="insert('0')">0</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="insert('/')">/</button>
+      </div>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>

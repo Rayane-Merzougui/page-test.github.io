@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 *::selection {
-  color: darkcyan;
+  color: cyan;
 }
 body {
   font-family: onset;
@@ -102,6 +102,60 @@ header {
 .presentation p {
   padding-bottom: 20px;
 }
+.calculator {
+  position: absolute;
+  top: 400px;
+  right: 50%;
+  transform: translateX(47%);
+  border: 1px solid rgb(0, 57, 202);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: aqua;
+  box-shadow: 1px 2px 20px rgb(0, 57, 202);
+}
+
+#display {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: darkgrey;
+}
+.text-app {
+  color: white;
+  position: absolute;
+  top: 250px;
+  text-align: center;
+}
+.text-app p {
+  padding-left: 55px;
+  padding-right: 55px;
+}
 @media screen and (max-width: 1120px) {
   .navbar {
     padding: 0;
@@ -118,7 +172,7 @@ header {
     background-color: rgba(255, 255, 255, 0.24);
     backdrop-filter: blur(7px);
     margin-left: -100%;
-    transition: 0.7s;
+    transition: 0.5s;
     z-index: 1000;
   }
   .mobil-menu {
