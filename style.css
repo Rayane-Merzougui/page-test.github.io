@@ -104,13 +104,13 @@ header {
 }
 .calculator {
   position: absolute;
-  top: 400px;
+  top: 430px;
   right: 50%;
   transform: translateX(47%);
   border: 1px solid rgb(0, 57, 202);
   border-radius: 10px;
   padding: 20px;
-  background-color: aqua;
+  background-color: rgb(28, 110, 140);
   box-shadow: 1px 2px 20px rgb(0, 57, 202);
 }
 
@@ -153,8 +153,18 @@ button:hover {
   text-align: center;
 }
 .text-app p {
-  padding-left: 55px;
-  padding-right: 55px;
+  padding: 10px 55px;
+  font-size: larger;
+}
+.back {
+  position: relative;
+  width: 95%;
+  height: 525px;
+  margin: 0 auto;
+  top: 250px;
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 2px 20px rgb(0, 57, 202);
+  border-radius: 20px;
 }
 @media screen and (max-width: 1120px) {
   .navbar {
