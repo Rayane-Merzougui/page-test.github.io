@@ -13,7 +13,9 @@ function clearDisplay() {
 
 function calculate() {
   try {
-    let result = eval(document.getElementById("display").value);
+    let expression = document.getElementById("display").value;
+    expression = expression.replace(/x/g, "*");
+    let result = eval(expression);
     document.getElementById("display").value = result;
   } catch (error) {
     alert("Expression invalide");

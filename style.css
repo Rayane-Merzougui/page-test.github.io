@@ -166,6 +166,11 @@ button:hover {
   box-shadow: 1px 2px 20px rgb(0, 57, 202);
   border-radius: 20px;
 }
+@media (hover: none) {
+  button:hover {
+    background-color: white; /* Remettre la couleur de base ou un autre style souhaité */
+  }
+}
 @media screen and (max-width: 1120px) {
   .navbar {
     padding: 0;
