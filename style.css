@@ -166,6 +166,20 @@ button:hover {
   box-shadow: 1px 2px 20px rgb(0, 57, 202);
   border-radius: 20px;
 }
+.contact {
+  color: white;
+  position: absolute;
+  top: 300px;
+  right: 20%;
+  left: 20%;
+  border-radius: 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 2px 20px rgb(0, 57, 202);
+}
+.contact p {
+  font-size: 1.2rem;
+}
 @media (hover: none) {
   button:hover {
     background-color: white; /* Remettre la couleur de base ou un autre style souhaité */
