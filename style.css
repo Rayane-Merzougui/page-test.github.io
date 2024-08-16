@@ -185,6 +185,31 @@ button:hover {
   width: 70px;
   padding: 10px 10px;
 }
+.boxpop {
+  height: 250px;
+  width: 500px;
+  background-color: darkcyan;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: -750px;
+  transition: 2s;
+  top: 350px;
+}
+#exite {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  background-color: darkcyan;
+}
 @media (hover: none) {
   button:hover {
     background-color: white; /* Remettre la couleur de base ou un autre style souhaité */
