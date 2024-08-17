@@ -186,8 +186,8 @@ button:hover {
   padding: 10px 10px;
 }
 .boxpop {
-  height: 250px;
-  width: 500px;
+  height: 200px;
+  width: 400px;
   background-color: darkcyan;
   border-radius: 20px;
   display: flex;
@@ -197,14 +197,19 @@ button:hover {
   position: fixed;
   right: -750px;
   transition: 2s;
-  top: 350px;
+  top: 400px;
+  color: white;
+}
+.boxpop p {
+  padding: 10px;
+  text-align: center;
 }
 #exite {
   height: 30px;
   width: 30px;
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 7px;
+  right: 7px;
   border: 2px solid white;
   border-radius: 20px;
   color: white;
