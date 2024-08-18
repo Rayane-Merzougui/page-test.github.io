@@ -204,6 +204,18 @@ button:hover {
   padding: 10px;
   text-align: center;
 }
+.boxpop input {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: none;
+  transition: 0.3s;
+}
+.boxpop input[type="text"]:focus {
+  border: none;
+  outline: none;
+  background-color: rgb(214, 212, 212);
+}
 #exite {
   height: 30px;
   width: 30px;
@@ -263,6 +275,15 @@ button:hover {
   }
   #active {
     font-size: larger;
+  }
+  .calculator {
+    top: 500px;
+  }
+  .back {
+    height: 590px;
+  }
+  .boxpop {
+    top: 380px;
   }
 }
 @media screen and (max-width: 500px) {
