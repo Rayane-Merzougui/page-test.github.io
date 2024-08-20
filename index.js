@@ -20,7 +20,8 @@ function calculate() {
     let result = eval(expression);
     document.getElementById("display").value = result;
   } catch (error) {
-    alert("Expression invalide");
+    /*alert("Expression invalide");*/
+    document.getElementById("display").value = "Syntax error";
   }
 }
 function onScroll() {

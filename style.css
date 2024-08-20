@@ -142,8 +142,7 @@ button {
   cursor: pointer;
   transition: 0.2s;
 }
-
-button:hover {
+button:active {
   background-color: darkgrey;
 }
 .text-app {
@@ -199,6 +198,7 @@ button:hover {
   transition: 2s;
   top: 400px;
   color: white;
+  z-index: 100;
 }
 .boxpop p {
   padding: 10px;
@@ -227,10 +227,38 @@ button:hover {
   color: white;
   background-color: darkcyan;
 }
-@media (hover: none) {
-  button:hover {
-    background-color: white; /* Remettre la couleur de base ou un autre style souhaité */
-  }
+.back2 {
+  position: relative;
+  width: 95%;
+  height: 540px;
+  margin: 30px auto;
+  top: 250px;
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 2px 20px rgb(0, 57, 202);
+  border-radius: 20px;
+}
+.back3 {
+  position: relative;
+  width: 95%;
+  height: 240px;
+  margin: 30px auto;
+  top: 250px;
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 2px 20px rgb(0, 57, 202);
+  border-radius: 20px;
+}
+.autreff {
+  color: white;
+  position: absolute;
+  top: 1450px;
+  text-align: center;
+}
+.autreff p {
+  padding: 10px 55px;
+  font-size: larger;
+}
+.autreff strong {
+  color: gold;
 }
 @media screen and (max-width: 1120px) {
   .navbar {
