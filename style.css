@@ -13,6 +13,7 @@
 * {
   padding: 0;
   margin: 0;
+  color: white;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -238,7 +239,21 @@ button:active {
   border-radius: 20px;
 }
 .formulaire {
-  position: relative;
+  position: absolute;
+  top: 800px;
+  width: 100%;
+  padding: 30px;
+  margin: 20px auto;
+}
+.formulaire h2 {
+  text-align: center;
+}
+.content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.content img {
+  width: 80%;
 }
 .back3 {
   position: relative;
