@@ -273,20 +273,30 @@ form {
   color: black;
   height: 40%;
   margin: 0px 20px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 20px;
   font-size: 1.1rem;
   font-family: onset;
+}
+#Nom {
+  border: none;
+  outline: none;
+  background-color: rgb(214, 212, 212);
 }
 #Prénom {
   grid-area: i2;
   color: black;
   height: 40%;
   margin: 0px 20px;
-  padding: 10px;
+  padding: 15px;
   border-radius: 20px;
   font-size: 1.1rem;
   font-family: onset;
+}
+#Prénom {
+  border: none;
+  outline: none;
+  background-color: rgb(214, 212, 212);
 }
 #msg {
   grid-area: ta;
@@ -296,6 +306,12 @@ form {
   border-radius: 20px;
   font-size: 1.1rem;
   font-family: onset;
+  resize: none;
+}
+#msg {
+  border: none;
+  outline: none;
+  background-color: rgb(214, 212, 212);
 }
 #valid {
   color: black;
@@ -306,7 +322,12 @@ form {
   width: 100px;
   margin-left: 320px;
   margin-top: 10px;
+  border: none;
   border-radius: 20px;
+}
+#valid :active {
+  background-color: rgb(8, 102, 255);
+  color: white;
 }
 .back3 {
   position: relative;
