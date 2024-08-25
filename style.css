@@ -272,60 +272,57 @@ form {
   grid-area: i1;
   color: black;
   height: 40%;
-  margin: 0px 20px;
+  margin: 50px 10px 0 20px;
   padding: 15px;
   border-radius: 20px;
   font-size: 1.1rem;
   font-family: onset;
-}
-#Nom {
   border: none;
   outline: none;
-  background-color: rgb(214, 212, 212);
+  background-color: rgb(255, 255, 255);
 }
 #Prénom {
   grid-area: i2;
   color: black;
   height: 40%;
-  margin: 0px 20px;
+  margin: 50px 20px 0 20px;
   padding: 15px;
   border-radius: 20px;
   font-size: 1.1rem;
   font-family: onset;
-}
-#Prénom {
   border: none;
   outline: none;
-  background-color: rgb(214, 212, 212);
+  background-color: rgb(255, 255, 255);
 }
 #msg {
   grid-area: ta;
   color: black;
-  margin: 0px 20px;
+  margin: 10px 20px;
   padding: 10px;
   border-radius: 20px;
   font-size: 1.1rem;
   font-family: onset;
   resize: none;
-}
-#msg {
   border: none;
   outline: none;
-  background-color: rgb(214, 212, 212);
+  background-color: rgb(255, 255, 255);
 }
 #valid {
   color: black;
   grid-area: bt;
   font-family: onset;
+  text-align: center;
   font-weight: bold;
   height: 40%;
-  width: 100px;
-  margin-left: 320px;
+  width: 90px;
+  margin-left: 341px;
   margin-top: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s;
 }
-#valid :active {
+#valid:hover {
   background-color: rgb(8, 102, 255);
   color: white;
 }
@@ -342,7 +339,7 @@ form {
 .autreff {
   color: white;
   position: absolute;
-  top: 1450px;
+  top: 1380px;
   text-align: center;
 }
 .autreff p {
