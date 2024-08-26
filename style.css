@@ -25,6 +25,7 @@ body {
   font-family: onset;
   min-height: 120vh;
   max-width: 100vw;
+  overflow-x: hidden;
 }
 header {
   height: 120vh;
@@ -233,7 +234,7 @@ button:active {
 .back2 {
   position: relative;
   width: 95%;
-  height: 540px;
+  height: 520px;
   margin: 30px auto;
   top: 250px;
   backdrop-filter: blur(10px);
@@ -314,9 +315,10 @@ form {
   text-align: center;
   font-weight: bold;
   height: 40%;
-  width: 90px;
-  margin-left: 341px;
+  width: 20%;
+  justify-self: end;
   margin-top: 10px;
+  margin-right: 20px;
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -401,6 +403,69 @@ form {
   }
   .boxpop {
     top: 380px;
+  }
+  .back2 {
+    height: 500px;
+  }
+  .formulaire {
+    top: 850px;
+  }
+  .autreff {
+    top: 1400px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .back2 {
+    height: 800px;
+  }
+  .content {
+    display: block;
+  }
+  .content img {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+  }
+  .back3 {
+    height: 280px;
+  }
+  .autreff {
+    top: 1700px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .back3 {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .back3 {
+    height: 370px;
+  }
+}
+@media screen and (max-width: 660px) {
+  form {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "i1"
+      "i2"
+      "ta"
+      "bt";
+  }
+  #Préom {
+    margin-top: 0px;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .back3 {
+    height: 410px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .back3 {
+    height: 450px;
   }
 }
 @media screen and (max-width: 500px) {
