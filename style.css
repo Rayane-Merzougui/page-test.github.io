@@ -530,9 +530,11 @@ form {
 @media screen and (max-width: 330px) {
   .calculator {
     height: 230px;
+    top: 570px;
   }
   button {
     height: 25px;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 300px) {
