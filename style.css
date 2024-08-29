@@ -470,6 +470,12 @@ form {
   .back3 {
     height: 460px;
   }
+  .boxpop {
+    width: 300px;
+  }
+  .boxpop p {
+    font-size: 0.8rem;
+  }
 }
 @media screen and (max-width: 530px) {
   .text-app p {
@@ -492,6 +498,12 @@ form {
 @media screen and (max-width: 390px) {
   .back3 {
     height: 450px;
+  }
+  .boxpop {
+    width: 250px;
+  }
+  .boxpop p {
+    font-size: 0.7rem;
   }
 }
 @media screen and (max-width: 360px) {
