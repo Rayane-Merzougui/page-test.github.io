@@ -351,6 +351,7 @@ form {
 .autreff strong {
   color: gold;
 }
+
 @media screen and (max-width: 1120px) {
   .navbar {
     padding: 0;
@@ -414,6 +415,11 @@ form {
     top: 1400px;
   }
 }
+@media screen and (max-width: 1005px) {
+  .back3 {
+    height: 280px;
+  }
+}
 @media screen and (max-width: 910px) {
   .back2 {
     height: 800px;
@@ -430,7 +436,7 @@ form {
     height: 280px;
   }
   .autreff {
-    top: 1700px;
+    top: 1720px;
   }
 }
 @media screen and (max-width: 825px) {
@@ -478,6 +484,9 @@ form {
   }
 }
 @media screen and (max-width: 530px) {
+  .text-app {
+    top: 265px;
+  }
   .text-app p {
     font-size: 1rem;
   }
@@ -496,17 +505,12 @@ form {
   }
 }
 @media screen and (max-width: 390px) {
-  .back3 {
-    height: 450px;
-  }
   .boxpop {
     width: 250px;
   }
   .boxpop p {
     font-size: 0.7rem;
   }
-}
-@media screen and (max-width: 360px) {
   .content img {
     margin-bottom: 50px;
   }
@@ -538,8 +542,6 @@ form {
   .autreff p {
     font-size: 0.8rem;
   }
-}
-@media screen and (max-width: 330px) {
   .calculator {
     height: 230px;
     top: 570px;
@@ -548,6 +550,10 @@ form {
     height: 25px;
     font-size: 12px;
   }
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 330px) {
 }
 @media screen and (max-width: 300px) {
   .back3 {
