@@ -112,7 +112,7 @@ header {
   border: 1px solid rgb(0, 57, 202);
   border-radius: 10px;
   padding: 20px;
-  background-color: rgb(28, 110, 140);
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
   box-shadow: 1px 2px 20px rgb(0, 57, 202);
 }
 
@@ -280,7 +280,7 @@ form {
   font-family: onset;
   border: none;
   outline: none;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 1);
 }
 #Prénom {
   grid-area: i2;
@@ -325,7 +325,7 @@ form {
   transition: 0.2s;
 }
 #valid:hover {
-  background-color: rgb(8, 102, 255);
+  background: linear-gradient(45deg, cyan, blue);
   color: white;
 }
 .back3 {
