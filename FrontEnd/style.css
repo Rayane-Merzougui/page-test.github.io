@@ -1,14 +1,14 @@
 @font-face {
   font-family: dm-serife;
-  src: url(./Assets/Fonts/DMSerifDisplay-Regular.ttf);
+  src: url(../Assets/Fonts/DMSerifDisplay-Regular.ttf);
 }
 @font-face {
   font-family: onset;
-  src: url(./Assets/Fonts/Onest/Onest-VariableFont_wght.ttf);
+  src: url(../Assets/Fonts/Onest/Onest-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: serif-tibetan;
-  src: url(./Assets/Fonts/Noto_Serif_Tibetan/NotoSerifTibetan-VariableFont_wght.ttf);
+  src: url(../Assets/Fonts/Noto_Serif_Tibetan/NotoSerifTibetan-VariableFont_wght.ttf);
 }
 * {
   padding: 0;
@@ -30,7 +30,7 @@ body {
 header {
   height: 120vh;
   width: 100vw;
-  background-image: url(./Assets/IMG/Background.jpg);
+  background-image: url(../Assets/IMG/Background.jpg);
   background-size: cover;
   z-index: -1;
   position: fixed;
