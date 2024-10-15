@@ -20,7 +20,36 @@
       </div>
       <img src="./Assets/Icons/menu-btn.png" alt="menu" id="burger" />
     </nav>
-    <header></header>
+    <h1>Guestbook DApp</h1>
+<header></header>
+    <!-- Section pour ajouter un message -->
+    <div>
+        <h2>Add a Message</h2>
+        <input type="text" id="messageInput" placeholder="Enter your message here">
+        <button onclick="addMessage()">Add Message</button>
+    </div>
+
+    <!-- Section pour afficher les messages -->
+    <div>
+        <h2>All Messages</h2>
+        <button onclick="getAllMessages()">Show Messages</button>
+        <pre id="output"></pre>
+    </div>
+
+    <!-- Section pour supprimer un message -->
+    <div>
+        <h2>Delete a Message</h2>
+        <input type="number" id="deleteIndex" placeholder="Message index to delete">
+        <button onclick="deleteMessage()">Delete Message</button>
+    </div>
+
+    <!-- Section pour changer le propriétaire -->
+    <div>
+        <h2>Change Owner</h2>
+        <input type="text" id="newOwner" placeholder="Enter new owner's address">
+        <button onclick="changeOwner()">Change Owner</button>
+    </div>
+    <script src="./FrontEnd/Smart.js"></script>
     <script src="./FrontEnd/index.js"></script>
   </body>
 </html>
