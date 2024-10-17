@@ -363,7 +363,54 @@ form {
 .autreff strong {
   color: gold;
 }
-
+.Dapp1{
+  text-align: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 2px 20px rgb(0, 57, 202);
+  position: absolute;
+  width:95%;
+  top: 250px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  margin-right:auto ;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.Dapp1 button {
+  width: 12%;
+  height: 40px;
+}
+.Dapp1 button:hover {
+  background: linear-gradient(45deg, cyan, blue);
+  color: white;
+}
+.Dapp1 input {
+  border: none;
+  font-size: 1.1rem;
+  height: 50px;
+  width: 70%;
+  margin: 30px;
+  border-radius: 20px;
+  color: black;
+  padding: 20px;
+  font-family: onset;
+}
+.Dapp1 input[type="text"]:focus {
+  border: none;
+  outline: none;
+  background-color: rgb(248, 247, 247);
+}
+.newDiv  p {
+  letter-spacing: -3px;
+  color: aqua;
+}
+#titred {
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 1120px) {
   .navbar {
     padding: 0;
