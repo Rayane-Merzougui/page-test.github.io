@@ -479,6 +479,14 @@ form {
     height: 280px;
   }
 }
+@media screen and (max-width: 980px) {
+  .Dapp1{
+    margin-left: 20px;
+  }
+  .Dapp1 button {
+    width: 20%;
+  }
+}
 @media screen and (max-width: 910px) {
   .back2 {
     height: 800px;
@@ -507,6 +515,9 @@ form {
   .back3 {
     height: 370px;
   }
+  .newDiv  p {
+    letter-spacing: -4px;
+  }
 }
 @media screen and (max-width: 660px) {
   form {
@@ -530,6 +541,14 @@ form {
   .back3 {
     height: 410px;
   }
+  .Dapp1{
+    margin-left: 15px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .Dapp1 button {
+    width: 30%;
+  }
 }
 @media screen and (max-width: 580px) {
   .back3 {
@@ -541,7 +560,11 @@ form {
   .boxpop p {
     font-size: 0.8rem;
   }
+  .newDiv p {
+    letter-spacing: -5px;
+  }
 }
+
 @media screen and (max-width: 530px) {
   .text-app {
     top: 265px;
@@ -557,10 +580,26 @@ form {
     padding-right: 20px;
     padding-left: 20px;
   }
+  .Dapp1{
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 480px){
+  .Dapp1 button {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .newDiv p {
+    letter-spacing: -5.5px;
+  }
 }
 @media screen and (max-width: 400px) {
   .text-app p {
     padding: 10px 20px;
+  }
+  .Dapp1 {
+    margin-left: 8px;
   }
 }
 @media screen and (max-width: 390px) {
@@ -608,6 +647,9 @@ form {
   button {
     height: 25px;
     font-size: 12px;
+  }
+  .Dapp1 input {
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 360px) {
